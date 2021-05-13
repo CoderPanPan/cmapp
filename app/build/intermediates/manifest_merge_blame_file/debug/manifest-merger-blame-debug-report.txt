@@ -1,0 +1,251 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.eps.logistics.ytwo"
+4    android:versionCode="7"
+5    android:versionName="0.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\cmapp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->D:\cmapp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\cmapp\app\src\main\AndroidManifest.xml:6:5-67
+11-->D:\cmapp\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->D:\cmapp\app\src\main\AndroidManifest.xml:7:5-76
+12-->D:\cmapp\app\src\main\AndroidManifest.xml:7:22-73
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->D:\cmapp\app\src\main\AndroidManifest.xml:9:5-79
+13-->D:\cmapp\app\src\main\AndroidManifest.xml:9:22-76
+14    <uses-permission android:name="android.permission.BLUETOOTH" />
+14-->D:\cmapp\app\src\main\AndroidManifest.xml:11:5-68
+14-->D:\cmapp\app\src\main\AndroidManifest.xml:11:22-65
+15    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+15-->D:\cmapp\app\src\main\AndroidManifest.xml:12:5-74
+15-->D:\cmapp\app\src\main\AndroidManifest.xml:12:22-71
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+16-->D:\cmapp\app\src\main\AndroidManifest.xml:15:5-75
+16-->D:\cmapp\app\src\main\AndroidManifest.xml:15:22-72
+17    <uses-permission android:name="android.permission.READ_LOGS" />
+17-->D:\cmapp\app\src\main\AndroidManifest.xml:16:5-68
+17-->D:\cmapp\app\src\main\AndroidManifest.xml:16:22-65
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->D:\cmapp\app\src\main\AndroidManifest.xml:18:5-81
+18-->D:\cmapp\app\src\main\AndroidManifest.xml:18:22-78
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->D:\cmapp\app\src\main\AndroidManifest.xml:19:5-80
+19-->D:\cmapp\app\src\main\AndroidManifest.xml:19:22-77
+20    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+20-->D:\cmapp\app\src\main\AndroidManifest.xml:20:5-73
+20-->D:\cmapp\app\src\main\AndroidManifest.xml:20:22-70
+21    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+21-->D:\cmapp\app\src\main\AndroidManifest.xml:21:5-81
+21-->D:\cmapp\app\src\main\AndroidManifest.xml:21:22-78
+22
+23    <uses-feature
+23-->D:\cmapp\app\src\main\AndroidManifest.xml:24:5-26:35
+24        android:name="android.hardware.bluetooth_le"
+24-->D:\cmapp\app\src\main\AndroidManifest.xml:25:9-53
+25        android:required="true" />
+25-->D:\cmapp\app\src\main\AndroidManifest.xml:26:9-32
+26
+27    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+27-->[:mylibrary] D:\cmapp\mylibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-79
+27-->[:mylibrary] D:\cmapp\mylibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:22-76
+28    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+28-->[:mylibrary] D:\cmapp\mylibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-81
+28-->[:mylibrary] D:\cmapp\mylibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:22-78
+29    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+29-->[:water:] D:\SoftWare\.gradle\caches\transforms-2\files-2.1\ea7cd3bc41ea63035e065c3cfe0e4bef\water\AndroidManifest.xml:17:5-84
+29-->[:water:] D:\SoftWare\.gradle\caches\transforms-2\files-2.1\ea7cd3bc41ea63035e065c3cfe0e4bef\water\AndroidManifest.xml:17:22-81
+30    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+30-->[:water:] D:\SoftWare\.gradle\caches\transforms-2\files-2.1\ea7cd3bc41ea63035e065c3cfe0e4bef\water\AndroidManifest.xml:19:5-78
+30-->[:water:] D:\SoftWare\.gradle\caches\transforms-2\files-2.1\ea7cd3bc41ea63035e065c3cfe0e4bef\water\AndroidManifest.xml:19:22-75
+31    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+31-->[:water:] D:\SoftWare\.gradle\caches\transforms-2\files-2.1\ea7cd3bc41ea63035e065c3cfe0e4bef\water\AndroidManifest.xml:20:5-80
+31-->[:water:] D:\SoftWare\.gradle\caches\transforms-2\files-2.1\ea7cd3bc41ea63035e065c3cfe0e4bef\water\AndroidManifest.xml:20:22-77
+32    <uses-permission android:name="android.permission.GET_TASKS" />
+32-->[:water:] D:\SoftWare\.gradle\caches\transforms-2\files-2.1\ea7cd3bc41ea63035e065c3cfe0e4bef\water\AndroidManifest.xml:23:5-68
+32-->[:water:] D:\SoftWare\.gradle\caches\transforms-2\files-2.1\ea7cd3bc41ea63035e065c3cfe0e4bef\water\AndroidManifest.xml:23:22-65
+33    <uses-permission android:name="android.permission.WAKE_LOCK" />
+33-->[:water:] D:\SoftWare\.gradle\caches\transforms-2\files-2.1\ea7cd3bc41ea63035e065c3cfe0e4bef\water\AndroidManifest.xml:26:5-68
+33-->[:water:] D:\SoftWare\.gradle\caches\transforms-2\files-2.1\ea7cd3bc41ea63035e065c3cfe0e4bef\water\AndroidManifest.xml:26:22-65
+34    <uses-permission android:name="android.permission.DEVICE_POWER" />
+34-->[:water:] D:\SoftWare\.gradle\caches\transforms-2\files-2.1\ea7cd3bc41ea63035e065c3cfe0e4bef\water\AndroidManifest.xml:27:5-29:47
+34-->[:water:] D:\SoftWare\.gradle\caches\transforms-2\files-2.1\ea7cd3bc41ea63035e065c3cfe0e4bef\water\AndroidManifest.xml:28:9-55
+35
+36    <application
+36-->D:\cmapp\app\src\main\AndroidManifest.xml:28:5-101:19
+37        android:name="com.app.base.RobotApplication"
+37-->D:\cmapp\app\src\main\AndroidManifest.xml:29:9-53
+38        android:allowBackup="true"
+38-->D:\cmapp\app\src\main\AndroidManifest.xml:30:9-35
+39        android:debuggable="true"
+40        android:icon="@mipmap/ic_launcher"
+40-->D:\cmapp\app\src\main\AndroidManifest.xml:31:9-43
+41        android:label="@string/app_name"
+41-->D:\cmapp\app\src\main\AndroidManifest.xml:32:9-41
+42        android:roundIcon="@mipmap/ic_launcher_round"
+42-->D:\cmapp\app\src\main\AndroidManifest.xml:33:9-54
+43        android:supportsRtl="true"
+43-->D:\cmapp\app\src\main\AndroidManifest.xml:34:9-35
+44        android:theme="@style/AppTheme.FullScreen" >
+44-->D:\cmapp\app\src\main\AndroidManifest.xml:35:9-51
+45        <activity
+45-->D:\cmapp\app\src\main\AndroidManifest.xml:38:9-40:47
+46            android:name="com.forgpio.demo.doorMain"
+46-->D:\cmapp\app\src\main\AndroidManifest.xml:39:13-53
+47            android:launchMode="singleTask" />
+47-->D:\cmapp\app\src\main\AndroidManifest.xml:40:13-44
+48        <activity
+48-->D:\cmapp\app\src\main\AndroidManifest.xml:41:9-43:47
+49            android:name="android_serialport_api.MainActivity"
+49-->D:\cmapp\app\src\main\AndroidManifest.xml:42:13-63
+50            android:launchMode="singleTask" />
+50-->D:\cmapp\app\src\main\AndroidManifest.xml:43:13-44
+51
+52        <!-- 2.0版本 -->
+53        <activity
+53-->D:\cmapp\app\src\main\AndroidManifest.xml:46:9-59:20
+54            android:name="com.app.ui.activity.LoginActivity"
+54-->D:\cmapp\app\src\main\AndroidManifest.xml:47:13-61
+55            android:launchMode="singleTask"
+55-->D:\cmapp\app\src\main\AndroidManifest.xml:48:13-44
+56            android:windowSoftInputMode="stateHidden" >
+56-->D:\cmapp\app\src\main\AndroidManifest.xml:49:13-54
+57            <intent-filter>
+57-->D:\cmapp\app\src\main\AndroidManifest.xml:50:13-53:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->D:\cmapp\app\src\main\AndroidManifest.xml:51:17-69
+58-->D:\cmapp\app\src\main\AndroidManifest.xml:51:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->D:\cmapp\app\src\main\AndroidManifest.xml:52:17-77
+60-->D:\cmapp\app\src\main\AndroidManifest.xml:52:27-74
+61            </intent-filter>
+62            <intent-filter>
+62-->D:\cmapp\app\src\main\AndroidManifest.xml:55:13-58:29
+63                <action android:name="com.eps.action.ENTER" />
+63-->D:\cmapp\app\src\main\AndroidManifest.xml:56:17-63
+63-->D:\cmapp\app\src\main\AndroidManifest.xml:56:25-60
+64
+65                <category android:name="android.intent.category.DEFAULT" />
+65-->D:\cmapp\app\src\main\AndroidManifest.xml:57:17-76
+65-->D:\cmapp\app\src\main\AndroidManifest.xml:57:27-73
+66            </intent-filter>
+67        </activity>
+68        <activity
+68-->D:\cmapp\app\src\main\AndroidManifest.xml:60:9-69:20
+69            android:name="com.app.ui.activity.HomeActivity"
+69-->D:\cmapp\app\src\main\AndroidManifest.xml:61:13-60
+70            android:launchMode="singleTask" >
+70-->D:\cmapp\app\src\main\AndroidManifest.xml:62:13-44
+71            <intent-filter>
+71-->D:\cmapp\app\src\main\AndroidManifest.xml:63:13-65:29
+72                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+72-->D:\cmapp\app\src\main\AndroidManifest.xml:64:17-90
+72-->D:\cmapp\app\src\main\AndroidManifest.xml:64:25-87
+73            </intent-filter>
+74
+75            <meta-data
+75-->D:\cmapp\app\src\main\AndroidManifest.xml:66:13-68:57
+76                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+76-->D:\cmapp\app\src\main\AndroidManifest.xml:67:17-79
+77                android:resource="@xml/device_filter" />
+77-->D:\cmapp\app\src\main\AndroidManifest.xml:68:17-54
+78        </activity>
+79        <activity android:name="com.app.ui.activity.SettingActivity" />
+79-->D:\cmapp\app\src\main\AndroidManifest.xml:70:9-72
+79-->D:\cmapp\app\src\main\AndroidManifest.xml:70:19-69
+80        <activity
+80-->D:\cmapp\app\src\main\AndroidManifest.xml:71:9-74:20
+81            android:name="com.app.ui.activity.StartActivity"
+81-->D:\cmapp\app\src\main\AndroidManifest.xml:72:13-61
+82            android:launchMode="singleTask" >
+82-->D:\cmapp\app\src\main\AndroidManifest.xml:73:13-44
+83        </activity>
+84
+85        <receiver android:name="com.app.base.ContentReceiver" >
+85-->D:\cmapp\app\src\main\AndroidManifest.xml:77:9-83:20
+85-->D:\cmapp\app\src\main\AndroidManifest.xml:77:19-62
+86            <intent-filter>
+86-->D:\cmapp\app\src\main\AndroidManifest.xml:79:13-81:29
+87                <action android:name="android.intent.action.BOOT_COMPLETED" />
+87-->D:\cmapp\app\src\main\AndroidManifest.xml:80:17-79
+87-->D:\cmapp\app\src\main\AndroidManifest.xml:80:25-76
+88            </intent-filter>
+89        </receiver>
+90
+91        <provider
+91-->D:\cmapp\app\src\main\AndroidManifest.xml:85:9-93:20
+92            android:name="android.support.v4.content.FileProvider"
+92-->D:\cmapp\app\src\main\AndroidManifest.xml:86:13-67
+93            android:authorities="com.eps.logistics.ytwo.fileProvider"
+93-->D:\cmapp\app\src\main\AndroidManifest.xml:87:13-70
+94            android:exported="false"
+94-->D:\cmapp\app\src\main\AndroidManifest.xml:88:13-37
+95            android:grantUriPermissions="true" >
+95-->D:\cmapp\app\src\main\AndroidManifest.xml:89:13-47
+96            <meta-data
+96-->D:\cmapp\app\src\main\AndroidManifest.xml:90:13-92:63
+97                android:name="android.support.FILE_PROVIDER_PATHS"
+97-->D:\cmapp\app\src\main\AndroidManifest.xml:91:17-67
+98                android:resource="@xml/file_provider_paths" />
+98-->D:\cmapp\app\src\main\AndroidManifest.xml:92:17-60
+99        </provider>
+100
+101        <service
+101-->D:\cmapp\app\src\main\AndroidManifest.xml:95:9-97:72
+102            android:name="eguard.service.MyJobService"
+102-->D:\cmapp\app\src\main\AndroidManifest.xml:96:13-55
+103            android:permission="android.permission.BIND_JOB_SERVICE" />
+103-->D:\cmapp\app\src\main\AndroidManifest.xml:97:13-69
+104
+105        <!-- 进程守护 end -->
+106
+107        <activity android:name="com.eps.device.BleScanActivity" />
+107-->[:mylibrary] D:\cmapp\mylibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:9-67
+107-->[:mylibrary] D:\cmapp\mylibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:19-64
+108        <activity
+108-->[:mylibrary] D:\cmapp\mylibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:9-27:47
+109            android:name="eps.library.common.BaseSettingActivity"
+109-->[:mylibrary] D:\cmapp\mylibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-66
+110            android:launchMode="singleTask" />
+110-->[:mylibrary] D:\cmapp\mylibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-44
+111        <activity
+111-->[:mylibrary] D:\cmapp\mylibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:9-30:47
+112            android:name="com.eps.device.DeviceActivity"
+112-->[:mylibrary] D:\cmapp\mylibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-57
+113            android:launchMode="singleTask" />
+113-->[:mylibrary] D:\cmapp\mylibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-44
+114        <activity
+114-->[:mylibrary] D:\cmapp\mylibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:9-33:47
+115            android:name="com.eps.device.UpLoadPositionActivity"
+115-->[:mylibrary] D:\cmapp\mylibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:13-65
+116            android:launchMode="singleTask" />
+116-->[:mylibrary] D:\cmapp\mylibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:13-44
+117
+118        <service android:name="org.eclipse.paho.android.service.MqttService" /> <!-- MqttService -->
+118-->[:mylibrary] D:\cmapp\mylibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:9-80
+118-->[:mylibrary] D:\cmapp\mylibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:18-77
+119        <service android:name="eps.library.mqtt.MyMqttService" />
+119-->[:mylibrary] D:\cmapp\mylibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:9-66
+119-->[:mylibrary] D:\cmapp\mylibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:18-63
+120
+121        <meta-data
+121-->[com.android.support:design:26.1.0] D:\SoftWare\.gradle\caches\transforms-2\files-2.1\efa334736037c3f4097c4389d035a7ae\design-26.1.0\AndroidManifest.xml:26:9-28:38
+122            android:name="android.support.VERSION"
+122-->[com.android.support:design:26.1.0] D:\SoftWare\.gradle\caches\transforms-2\files-2.1\efa334736037c3f4097c4389d035a7ae\design-26.1.0\AndroidManifest.xml:27:13-51
+123            android:value="26.1.0" />
+123-->[com.android.support:design:26.1.0] D:\SoftWare\.gradle\caches\transforms-2\files-2.1\efa334736037c3f4097c4389d035a7ae\design-26.1.0\AndroidManifest.xml:28:13-35
+124        <meta-data
+124-->[android.arch.lifecycle:runtime:1.0.0] D:\SoftWare\.gradle\caches\transforms-2\files-2.1\ab62ddfeadb2c029f12192542ba03c8c\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+125            android:name="android.arch.lifecycle.VERSION"
+125-->[android.arch.lifecycle:runtime:1.0.0] D:\SoftWare\.gradle\caches\transforms-2\files-2.1\ab62ddfeadb2c029f12192542ba03c8c\runtime-1.0.0\AndroidManifest.xml:26:13-58
+126            android:value="27.0.0-SNAPSHOT" />
+126-->[android.arch.lifecycle:runtime:1.0.0] D:\SoftWare\.gradle\caches\transforms-2\files-2.1\ab62ddfeadb2c029f12192542ba03c8c\runtime-1.0.0\AndroidManifest.xml:27:13-44
+127    </application>
+128
+129</manifest>

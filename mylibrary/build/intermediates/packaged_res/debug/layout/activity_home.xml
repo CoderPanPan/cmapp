@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@mipmap/home_bg">
+
+    <fragment
+        android:id="@+id/top_fragment"
+        android:name="eps.library.fragment.BaseTopFragment"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        tools:layout="@layout/top_fragment"/>
+
+
+    <FrameLayout
+        android:id="@+id/main_frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/top_fragment"
+        android:layout_marginTop="10dp"/>
+
+    <include
+        layout="@layout/layout_error_msg"
+        tools:showIn="@layout/activity_home"
+        tools:visibility="visible"/>
+
+    <include
+        layout="@layout/layout_charge_msg"
+        tools:showIn="@layout/activity_home"
+        tools:visibility="visible"/>
+</RelativeLayout>

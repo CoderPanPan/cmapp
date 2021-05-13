@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/style_number_input"
+            android:text="1"/>
+        <TextView
+            style="@style/style_number_input"
+            android:layout_marginLeft="115px"
+            android:text="2"/>
+        <TextView
+            style="@style/style_number_input"
+            android:layout_marginLeft="115px"
+            android:text="3"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="19px"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/style_number_input"
+            android:text="4"/>
+        <TextView
+            style="@style/style_number_input"
+            android:layout_marginLeft="115px"
+            android:text="5"/>
+        <TextView
+            style="@style/style_number_input"
+            android:layout_marginLeft="115px"
+            android:text="6"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="19px"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/style_number_input"
+            android:text="7"/>
+        <TextView
+            style="@style/style_number_input"
+            android:layout_marginLeft="115px"
+            android:text="8"/>
+        <TextView
+            style="@style/style_number_input"
+            android:layout_marginLeft="115px"
+            android:text="9"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="19px"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/style_number_input"
+            android:text="*"/>
+        <TextView
+            style="@style/style_number_input"
+            android:layout_marginLeft="115px"
+            android:text="0"/>
+        <TextView
+            style="@style/style_number_input"
+            android:layout_marginLeft="115px"
+            android:textSize="22px"
+            android:text="确定"/>
+    </LinearLayout>
+</LinearLayout>

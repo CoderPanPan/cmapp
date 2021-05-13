@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "applicationId": "com.example.myrobotlibrary",
+  "variantType": "LIBRARY",
+  "elements": [
+    {
+      "outputType": {
+        "type": "MERGED_MANIFESTS"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 2,
+        "versionName": "0.1",
+        "outputFile": "mylibrary-debug.aar",
+        "fullName": "debug",
+        "baseName": "debug",
+        "dirName": ""
+      },
+      "path": "../../library_manifest/debug/AndroidManifest.xml",
+      "properties": {
+        "packageId": "com.example.myrobotlibrary",
+        "split": ""
+      }
+    }
+  ]
+}

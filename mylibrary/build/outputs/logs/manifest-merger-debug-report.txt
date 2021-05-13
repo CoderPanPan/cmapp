@@ -1,0 +1,107 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:2:1-37:12
+	package
+		ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml
+		INJECTED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml
+		ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:2:1-37:12
+		INJECTED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml
+		ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:2:1-37:12
+		INJECTED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:6:5-76
+	android:name
+		ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:6:22-73
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:8:5-68
+	android:name
+		ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:8:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:9:5-74
+	android:name
+		ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:9:22-71
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:10:5-73
+	android:name
+		ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:10:22-70
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:13:22-78
+application
+ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:16:5-35:19
+	android:supportsRtl
+		ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:19:9-35
+	android:label
+		ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:18:9-41
+	android:allowBackup
+		ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:17:9-35
+activity#com.eps.device.BleScanActivity
+ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:21:9-67
+	android:name
+		ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:21:19-64
+activity#eps.library.common.BaseSettingActivity
+ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:22:9-24:47
+	android:launchMode
+		ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:24:13-44
+	android:name
+		ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:23:13-66
+activity#com.eps.device.DeviceActivity
+ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:25:9-27:47
+	android:launchMode
+		ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:26:13-57
+activity#com.eps.device.UpLoadPositionActivity
+ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:28:9-30:47
+	android:launchMode
+		ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:30:13-44
+	android:name
+		ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:29:13-65
+service#org.eclipse.paho.android.service.MqttService
+ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:32:9-80
+	android:name
+		ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:32:18-77
+service#eps.library.mqtt.MyMqttService
+ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:33:9-66
+	android:name
+		ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml:33:18-63
+uses-sdk
+INJECTED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml
+INJECTED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml
+INJECTED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml
+INJECTED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml
+		ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml
+		INJECTED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml
+		ADDED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml
+		INJECTED from D:\cmapp\mylibrary\src\main\AndroidManifest.xml

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_setting_permission_tips"
+        android:layout_width="314dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="120dp"
+        android:background="@drawable/setting_permission_tips_shape"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/setting_permission_on" />
+
+        <TextView
+            style="@style/TextStyle"
+            android:layout_marginLeft="18dp"
+            android:text="身份验证通过才能访问"
+            android:textColor="@color/color_267FFF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_setting_permission_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_setting_permission_tips"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="38dp"
+        android:layout_toRightOf="@id/ll_setting_permission_tips"
+        android:gravity="center_vertical">
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="设置"
+            android:textColor="@color/color_237CFF"
+            android:textSize="22sp" />
+
+        <Switch
+            android:id="@+id/sw_setting_permission_set"
+            style="@style/setting_switch"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="40dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_setting_permission_transport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_setting_permission_set"
+        android:layout_alignLeft="@id/ll_setting_permission_set"
+        android:layout_alignRight="@id/ll_setting_permission_set"
+        android:layout_marginTop="40dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="配送"
+            android:textColor="@color/color_237CFF"
+            android:textSize="22sp" />
+
+        <Switch
+            android:id="@+id/sw_setting_permission_transport"
+            style="@style/setting_switch"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="40dp" />
+    </LinearLayout>
+
+    <!--    消毒机器人专用-->
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/ll_setting_permission_disinfect2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_setting_permission_set"
+        android:layout_alignLeft="@id/ll_setting_permission_set"
+        android:layout_alignRight="@id/ll_setting_permission_set"
+        android:layout_marginTop="40dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="消毒"
+            android:textColor="@color/color_237CFF"
+            android:textSize="22sp" />
+
+        <Switch
+            android:id="@+id/sw_setting_permission_disinfect2"
+            style="@style/setting_switch"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="40dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_setting_permission_accept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_setting_permission_transport"
+        android:layout_alignLeft="@id/ll_setting_permission_set"
+        android:layout_alignRight="@id/ll_setting_permission_set"
+        android:layout_marginTop="40dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="接收"
+            android:textColor="@color/color_237CFF"
+            android:textSize="22sp" />
+
+        <Switch
+            android:id="@+id/sw_setting_permission_accept"
+            style="@style/setting_switch"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="40dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_setting_permission_disinfect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_setting_permission_tips"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@id/ll_setting_permission_set"
+        android:gravity="center_vertical"
+        android:visibility="gone">
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="消毒"
+            android:textColor="@color/color_237CFF"
+            android:textSize="22sp" />
+
+        <Switch
+            android:id="@+id/sw_setting_permission_disinfect"
+            style="@style/setting_switch"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="40dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_setting_permission_door_tips"
+        android:layout_width="314dp"
+        android:layout_height="52dp"
+        android:layout_below="@id/ll_setting_permission_accept"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/setting_permission_tips_shape"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/iv_title_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/devices" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/TextStyle"
+            android:layout_marginLeft="18dp"
+            android:text="设备使用操作流程简化"
+            android:textColor="@color/color_267FFF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_setting_permission_open_door"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_setting_permission_door_tips"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="38dp"
+        android:layout_toRightOf="@id/ll_setting_permission_door_tips"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_door_tips"
+            style="@style/TextStyle"
+            android:text="自动开门"
+            android:textColor="@color/color_237CFF"
+            android:textSize="22sp" />
+
+        <Switch
+            android:id="@+id/sw_setting_permission_door"
+            style="@style/setting_switch"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="40dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_aotu_receive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_setting_permission_acousto_optic"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="38dp"
+        android:layout_toRightOf="@id/ll_setting_permission_door_tips"
+        android:gravity="center_vertical">
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="自动接收"
+            android:textColor="@color/color_237CFF"
+            android:textSize="22sp" />
+
+        <Switch
+            android:id="@+id/sw_setting_permission_aotuReceive"
+            style="@style/setting_switch"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="40dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_bluetooth_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_aotu_receive"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="38dp"
+        android:layout_toRightOf="@id/ll_setting_permission_door_tips"
+        android:gravity="center_vertical">
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="蓝牙定位楼层"
+            android:textColor="@color/color_237CFF"
+            android:textSize="22sp" />
+
+        <Switch
+            android:id="@+id/sw_setting_permission_blueposition"
+            style="@style/setting_switch"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="40dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_setting_permission_acousto_optic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_setting_permission_door_tips"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@id/ll_aotu_receive"
+        android:gravity="center_vertical"
+        android:visibility="visible">
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="声光提醒"
+            android:textColor="@color/color_237CFF"
+            android:textSize="22sp" />
+
+        <Switch
+            android:id="@+id/sw_setting_permission_acousto_optic"
+            style="@style/setting_switch"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="40dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_return_medicine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_setting_permission_acousto_optic"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="38dp"
+        android:layout_toRightOf="@id/ll_aotu_receive"
+        android:gravity="center_vertical">
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="退药"
+            android:textColor="@color/color_237CFF"
+            android:textSize="22sp" />
+
+        <Switch
+            android:id="@+id/sw_setting_return_medicine"
+            style="@style/setting_switch"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="40dp" />
+    </LinearLayout>
+
+</RelativeLayout>

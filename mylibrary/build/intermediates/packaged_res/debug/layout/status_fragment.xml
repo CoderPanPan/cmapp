@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="40dp">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_weight="223"
+        android:paddingBottom="100dp">
+
+        <LinearLayout
+            android:id="@+id/ll_status_task_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/status_task_icon" />
+
+            <TextView
+                style="@style/TextStyle"
+                android:layout_marginLeft="20dp"
+                android:text="任务列表" />
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rlv_status_task"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/ll_status_task_title"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/destination_frame_shape_off"/>
+
+        <Button
+            android:id="@+id/btn_status_tasks_cancel"
+            android:layout_width="180dp"
+            android:layout_height="56dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp"
+            android:layout_marginBottom="22dp"
+            android:background="@drawable/status_tasks_cancel_shape"
+            android:text="取消任务 (10S)"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:visibility="gone"
+            tools:visibility="visible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="403">
+
+        <LinearLayout
+            android:id="@+id/ll_status_show_arrived"
+            android:layout_width="700dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone"
+            tools:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_status_show_arrive"
+                style="@style/TextStyle"
+                android:layout_centerHorizontal="true"
+                android:drawableLeft="@mipmap/status_show_arrive_icon"
+                android:drawablePadding="10dp"
+                android:text="@string/status_arrive_todo"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/tv_status_show_endaddr"
+                style="@style/TextStyle"
+                android:layout_marginTop="70dp"
+                android:textColor="@color/color_333333"
+                android:textSize="28sp"
+                tools:text="手术室" />
+
+            <Button
+                android:id="@+id/btn_status_arrive_receive"
+                android:layout_width="170dp"
+                android:layout_height="56dp"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="216dp"
+                android:background="@drawable/status_tasks_cancel_shape"
+                android:text="@string/status_transport_arrive"
+                android:textColor="@android:color/white"
+                android:textSize="22sp" />
+
+            <RelativeLayout
+                android:layout_width="450dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="46dp"
+                android:background="@drawable/shape_show_nextaddr">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:src="@mipmap/status_show_nextaddr_time" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+
+                    <TextView
+                        android:id="@+id/tv_status_arrive_tips"
+                        style="@style/TextStyle"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/color_666666"
+                        android:textSize="22sp"
+                        tools:text="5分0秒" />
+
+                    <TextView
+                        style="@style/TextStyle"
+                        android:layout_centerInParent="true"
+                        android:text="后自动前往下一目的地"
+                        android:textColor="@color/color_666666"
+                        android:textSize="22sp" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_status_show_transporting"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            tools:visibility="visible">
+
+            <TextView
+                android:id="@+id/tv_status_show_title"
+                style="@style/TextStyle"
+                android:layout_centerHorizontal="true"
+                android:text="@string/status_transport_ing"
+                android:textSize="36sp" />
+
+            <ImageView
+                android:id="@+id/iv_status_show_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/tv_status_show_title"
+                android:layout_alignBottom="@id/tv_status_show_title"
+                android:layout_marginEnd="20dp"
+                android:layout_toStartOf="@id/tv_status_show_title"
+                android:src="@mipmap/status_show_transport_icon" />
+
+            <ImageView
+                android:id="@+id/iv_status_show_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="27dp"
+                android:src="@mipmap/status_show_point" />
+
+            <TextView
+                android:id="@+id/tv_status_show_from"
+                style="@style/TextStyle"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="70dp"
+                android:layout_toStartOf="@id/iv_status_show_point"
+                android:background="@mipmap/status_show_from"
+                android:gravity="center"
+                android:maxLines="3"
+                android:textColor="@color/color_333333"
+                android:textSize="20sp"
+                tools:text="手术室2" />
+
+            <TextView
+                android:id="@+id/tv_status_show_to"
+                style="@style/TextStyle"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="70dp"
+                android:layout_toEndOf="@id/iv_status_show_point"
+                android:background="@mipmap/status_show_to"
+                android:gravity="center"
+                android:maxLines="3"
+                android:textColor="@color/color_333333"
+                android:textSize="20sp"
+                tools:text="手术室4" />
+
+            <ImageView
+                android:id="@+id/iv_status_show_carrier"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/iv_status_show_point"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="6dp"
+                android:src="@mipmap/status_show_carrier" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_status_show_disinfection"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="100dp"
+            android:visibility="gone"
+            tools:visibility="gone">
+
+            <TextView
+                style="@style/TextStyle"
+                android:layout_centerHorizontal="true"
+                android:drawableLeft="@mipmap/icon_disinfect"
+                android:drawablePadding="37dp"
+                android:text="消毒工作中"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/tv_status_disinfec_name"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:background="@mipmap/status_show_to"
+                android:gravity="center"
+                android:maxLines="3"
+                android:textColor="@color/color_666666"
+                android:textSize="22sp"
+                tools:text="4楼护士站(老年3区)" />
+
+            <LinearLayout
+                android:layout_width="500dp"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="46dp"
+                android:layout_marginBottom="81dp"
+                android:background="@drawable/shape_show_nextaddr"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:src="@mipmap/status_show_nextaddr_time" />
+
+                <TextView
+                    android:id="@+id/tv_disinfect_count_down"
+                    style="@style/TextStyle"
+                    android:layout_marginLeft="30dp"
+                    android:maxLines="1"
+                    android:text="区域消毒预计剩余时间5分钟"
+                    android:textColor="@color/color_666666"
+                    android:textSize="22sp" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>
+

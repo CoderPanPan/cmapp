@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./mylibrary/libs/zkandroidfingerservice.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mylibrary/libs/zkandroidfingerservice.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

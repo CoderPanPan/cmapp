@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="66dp"
+    android:layout_marginTop="10dp">
+
+    <ImageView
+        android:id="@+id/iv_top_back"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="32dp"
+        android:scaleType="centerInside"
+        android:src="@mipmap/back_security"
+        android:visibility="gone" />
+
+    <!--    todo 耗材柜的-->
+    <!--     <ImageView
+            android:id="@+id/iv_top_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:visibility="gone"
+            tools:visibility="gone" />-->
+
+    <ImageView
+        android:id="@+id/iv_top_logo"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="66dp"
+        android:layout_marginTop="14dp"
+        android:visibility="gone"
+        tools:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_top_time"
+        style="@style/TextStyle"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#666666"
+        android:textSize="24sp" />
+
+    <View
+        android:id="@+id/v_right"
+        android:layout_width="400dp"
+        android:layout_height="66dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp" />
+
+    <TextView
+        android:id="@+id/tv_home_percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="30dp"
+        android:text="0%"
+        android:textColor="#999999"
+        android:textSize="18sp" />
+
+    <ProgressBar
+        android:id="@+id/pb_home_battery"
+        style="@style/mProgressBar2"
+        android:layout_width="33dp"
+        android:layout_height="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="23dp"
+        android:layout_marginRight="78dp"
+        android:background="@mipmap/top_battery_percent"
+        android:max="100"
+        android:progress="0" />
+
+    <ImageView
+        android:id="@+id/iv_home_volume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="124dp"
+        android:src="@mipmap/home_volume" />
+
+    <ImageView
+        android:id="@+id/iv_home_signal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="160dp"
+        android:src="@mipmap/home_signal" />
+
+    <ImageView
+        android:id="@+id/iv_home_status"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="208dp"
+        android:scaleType="centerInside"
+        android:src="@mipmap/icon_perform" />
+
+</RelativeLayout>
+

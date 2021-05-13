@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="120dp">
+
+    <LinearLayout
+        android:id="@+id/ll_setting_volume_count_title"
+        android:layout_width="200dp"
+        android:layout_height="52dp"
+        android:background="@drawable/setting_volume_count_shape"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/setting_volume_count_icon"/>
+
+        <TextView
+            style="@style/TextStyle"
+            android:layout_marginLeft="40dp"
+            android:text="音量设置"
+            android:textColor="@color/color_267FFF"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_setting_volume_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/relativeLayout"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/relativeLayout"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextStyle"
+            android:layout_marginTop="14dp"
+            android:drawableLeft="@mipmap/volume_day"
+            android:drawablePadding="16dp"
+            android:text="正常工作时间"
+            android:textColor="@color/color_237CFF"
+            android:textSize="22sp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/volume_control_close"/>
+
+            <SeekBar
+                android:id="@+id/sb_setting_volume_count_day"
+                android:layout_width="450dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="30dp"
+                android:max="100"
+                android:maxHeight="12dp"
+                android:progress="0"
+                android:progressDrawable="@drawable/setting_volume_seekbar_list"
+                android:thumb="@drawable/setting_volume_seekbar_circle"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/volume_control_open"/>
+        </LinearLayout>
+
+        <TextView
+            style="@style/TextStyle"
+            android:layout_marginTop="48dp"
+            android:drawableLeft="@mipmap/volume_night"
+            android:drawablePadding="16dp"
+            android:text="免打扰时间"
+            android:textColor="@color/color_237CFF"
+            android:textSize="22sp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/volume_control_close"/>
+
+            <SeekBar
+                android:id="@+id/sb_setting_volume_count_night"
+                android:layout_width="450dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="30dp"
+                android:max="100"
+                android:maxHeight="12dp"
+                android:progress="0"
+                android:progressDrawable="@drawable/setting_volume_seekbar_list"
+                android:thumb="@drawable/setting_volume_seekbar_circle"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/volume_control_open"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_setting_volume_effect_title"
+        android:layout_width="200dp"
+        android:layout_height="52dp"
+        android:layout_below="@id/ll_setting_volume_count"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/setting_volume_count_shape"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/setting_volume_effect_icon"/>
+
+        <TextView
+            style="@style/TextStyle"
+            android:layout_marginLeft="40dp"
+            android:gravity="center"
+            android:text="音效设置"
+            android:textColor="@color/color_267FFF"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/ll_setting_volume_effect_title"
+        android:layout_marginLeft="62dp"
+        android:layout_toRightOf="@id/ll_setting_volume_effect_title">
+
+        <LinearLayout
+            android:id="@+id/ll_setting_effect"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/TextStyle"
+                android:text="音乐播报"
+                android:textColor="@color/color_237CFF"
+                android:textSize="22sp"/>
+
+            <Switch
+                android:id="@+id/sw_setting_song"
+                style="@style/setting_switch"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="36dp"/>
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rcv_setting_volume_songs"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@id/ll_setting_effect"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="88dp"
+            android:layout_marginTop="16dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

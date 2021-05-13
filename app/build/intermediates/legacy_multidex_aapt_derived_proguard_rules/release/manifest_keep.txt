@@ -1,0 +1,1 @@
+-keep class com.app.base.RobotApplication { <init>(); }

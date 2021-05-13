@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="0.02"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/edit1"
+            android:hint="PSC0 = 43"
+            android:inputType="number"
+            android:layout_width="120dp"
+            android:layout_height="50dp" />
+        <EditText
+            android:id="@+id/edit2"
+            android:hint="PWM0 = 128"
+            android:layout_marginTop="5dp"
+            android:inputType="number"
+            android:layout_width="120dp"
+            android:layout_height="50dp" />
+        <EditText
+            android:id="@+id/edit3"
+            android:hint="PSC1 = 10"
+            android:layout_marginTop="5dp"
+            android:layout_width="120dp"
+            android:inputType="number"
+            android:layout_height="50dp" />
+        <EditText
+            android:id="@+id/edit4"
+            android:hint="PWM1 = 192"
+            android:inputType="number"
+            android:layout_marginTop="5dp"
+            android:layout_width="120dp"
+            android:layout_height="50dp" />
+
+        <EditText
+            android:id="@+id/edit5"
+            android:inputType="number"
+            android:hint="Set LED0 on, LED1 off, LED2 set to blink at PSC0, PWM0, LED3 set to blink at PSC1, PWM1"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="灯光测试" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="271dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.26" >
+
+        <LinearLayout
+            android:id="@+id/scrollView1"
+            android:layout_width="405dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

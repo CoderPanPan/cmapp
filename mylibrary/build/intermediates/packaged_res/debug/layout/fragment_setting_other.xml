@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_one"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:visibility="visible">
+
+        <RelativeLayout
+            android:id="@+id/rl_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="119dp">
+
+            <TextView
+                android:id="@+id/tv_model_title1"
+                style="@style/TextStyle"
+                android:background="@drawable/setting_permission_tips_shape"
+                android:drawableLeft="@mipmap/icon_model"
+                android:drawablePadding="39dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="15dp"
+                android:text="模式选择"
+                android:textColor="#267FFF"/>
+
+            <TextView
+                android:id="@+id/tv_model_des"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="60dp"
+                android:layout_toRightOf="@+id/tv_model_title1"
+                android:text="配送模式"
+                android:textColor="#333333"
+                android:textSize="22sp"/>
+
+            <CheckBox
+                android:id="@+id/cb_setting_wait_back"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="156dp"
+                android:layout_toRightOf="@+id/tv_model_des"
+                android:button="@null"
+                android:drawablePadding="42dp"
+                android:drawableRight="@drawable/selector_check_box"
+                android:text="自动返回"
+                android:textColor="#237CFF"
+                android:textSize="22sp"/>
+
+        </RelativeLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_container"
+            android:layout_marginLeft="119dp"
+            android:layout_marginTop="99dp"
+            android:columnCount="2"
+            android:rowCount="2">
+
+            <TextView
+                android:id="@+id/tv_model_title2"
+                style="@style/TextStyle"
+                android:layout_column="0"
+                android:layout_row="0"
+                android:background="@drawable/setting_permission_tips_shape"
+                android:drawableLeft="@mipmap/advanced_setup"
+                android:drawablePadding="39dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="15dp"
+                android:text="高级设置"
+                android:textColor="#267FFF"/>
+
+            <TextView
+                android:id="@+id/tv_model_des2"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_column="1"
+                android:layout_marginLeft="60dp"
+                android:layout_row="0"
+                android:drawablePadding="58dp"
+                android:drawableRight="@mipmap/item1_destination_point_off"
+                android:gravity="center"
+                android:text="进入调试操作页面"
+                android:textColor="#333333"
+                android:textSize="22sp"/>
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_model_des3"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="60dp"-->
+                <!--android:layout_column="1"-->
+                <!--android:layout_marginLeft="60dp"-->
+                <!--android:layout_marginTop="40dp"-->
+                <!--android:layout_row="1"-->
+                <!--android:drawablePadding="58dp"-->
+                <!--android:drawableRight="@mipmap/item1_destination_point_off"-->
+                <!--android:gravity="center"-->
+                <!--android:text="进入消毒设置页面"-->
+                <!--android:textColor="#333333"-->
+                <!--android:textSize="22sp"-->
+                <!--android:visibility="gone"/>-->
+
+        </GridLayout>
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:visibility="gone"/>
+
+    <ProgressBar
+        android:id="@+id/pb_other"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>

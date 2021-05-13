@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/ll_setting_version_old"
+        android:orientation="horizontal"
+        android:layout_marginLeft="120dp"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:background="@drawable/update_version_tips_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/TextStyle"
+            android:textColor="@color/color_237CFF"
+            android:layout_marginLeft="18dp"
+            android:text="当前版本:" />
+
+        <TextView
+            android:id="@+id/tv_setting_version_old"
+            android:layout_marginLeft="90dp"
+            style="@style/TextStyle"
+            android:textColor="@color/color_237CFF"
+            tools:text="V1.23" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_setting_version_new"
+        android:layout_below="@id/ll_setting_version_old"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:background="@drawable/update_version_tips_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/TextStyle"
+            android:textColor="@color/color_237CFF"
+            android:layout_marginLeft="18dp"
+            android:text="最新版本:" />
+
+        <TextView
+            android:id="@+id/tv_setting_version_new"
+            android:layout_marginLeft="90dp"
+            style="@style/TextStyle"
+            android:textColor="@color/color_237CFF"
+            tools:text="V1.23" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_setting_version_default_tips"
+        android:text="@string/setting_version_default_tips"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="266dp"
+        android:textColor="@color/color_333333"
+        android:textSize="22sp"
+        android:visibility="visible"
+        tools:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/rl_setting_version_update"
+        android:orientation="vertical"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        tools:visibility="visible"
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/setting_version_update_tips"
+            android:textColor="@color/color_333333"
+            android:textSize="22sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_setting_version_update"
+            android:text="立即更新"
+            android:textSize="22sp"
+            android:background="@drawable/setting_version_update_confirm_shape"
+            android:textColor="@color/color_fefefe"
+            android:layout_marginTop="44dp"
+            android:gravity="center"
+            android:layout_width="184dp"
+            android:layout_height="56dp" />
+    </LinearLayout>
+</RelativeLayout>

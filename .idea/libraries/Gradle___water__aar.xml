@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: :water:@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../SoftWare/.gradle/caches/transforms-2/files-2.1/ea7cd3bc41ea63035e065c3cfe0e4bef/water/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../SoftWare/.gradle/caches/transforms-2/files-2.1/ea7cd3bc41ea63035e065c3cfe0e4bef/water/res" />
+      <root url="file://$PROJECT_DIR$/../SoftWare/.gradle/caches/transforms-2/files-2.1/ea7cd3bc41ea63035e065c3cfe0e4bef/water/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../SoftWare/.gradle/caches/transforms-2/files-2.1/ea7cd3bc41ea63035e065c3cfe0e4bef/water/jars/libs/gson-2.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../SoftWare/.gradle/caches/transforms-2/files-2.1/ea7cd3bc41ea63035e065c3cfe0e4bef/water/jars/libs/org.eclipse.paho.android.service-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../SoftWare/.gradle/caches/transforms-2/files-2.1/ea7cd3bc41ea63035e065c3cfe0e4bef/water/jars/libs/org.eclipse.paho.client.mqttv3-1.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

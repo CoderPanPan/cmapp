@@ -1,0 +1,354 @@
+[
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_switch_knob_android.png.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable-xhdpi\\switch_knob_android.png"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_recyclerview.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\layout\\item_recyclerview.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_test.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\button_test.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_select.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\button_select.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_user_grid_sel.9.png.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\user_grid_sel.9.png"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_adapter_item_user3.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\layout\\adapter_item_user3.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_destination_location_item2.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\layout\\destination_location_item2.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_status_show_nextaddr_shape.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\status_show_nextaddr_shape.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_destination_frame_shape_off.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\destination_frame_shape_off.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_down_song.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\layout\\dialog_down_song.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_home_fragment.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\layout\\home_fragment.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_goods_form_title_shape.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\goods_form_title_shape.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bindcard_icon_view.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\bindcard_icon_view.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_home_floor_d_bg.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\home_floor_d_bg.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_pwd_fragment.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\layout\\pwd_fragment.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_home_charging_stop_shape.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\home_charging_stop_shape.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_task_item.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\layout\\task_item.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_task_del_select.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\task_del_select.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_destination_tasks_sequence_circle.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\destination_tasks_sequence_circle.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_task_up.png.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\task_up.png"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_textview_sel.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\textview_sel.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_selector_point_img.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\selector_point_img.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_usersel_fragment.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\layout\\usersel_fragment.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_target_item_recy.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\layout\\target_item_recy.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_status_show_carrier.png.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\mipmap-mdpi\\status_show_carrier.png"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_selector_btn_bg.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\selector_btn_bg.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_setting_volume_seekbar_circle.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\setting_volume_seekbar_circle.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_setting_song_switch_on.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\setting_song_switch_on.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_setting_add_finger_on_shape.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\setting_add_finger_on_shape.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_destination_frame_shape_on.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\destination_frame_shape_on.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_setting_bg_selector.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\setting_bg_selector.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_destination_location_divider_shape.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\destination_location_divider_shape.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_pwd_layout.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\layout\\pwd_layout.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\xml_device_filter.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\xml\\device_filter.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bindcard_btn_on_view.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\bindcard_btn_on_view.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_switch_on_android.png.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable-xhdpi\\switch_on_android.png"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_show_nextaddr.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\shape_show_nextaddr.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_selector_btn_color.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\selector_btn_color.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_switch_track.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\switch_track.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_user_sel_g_bg.9.png.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\user_sel_g_bg.9.png"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_lamp.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\layout\\activity_lamp.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btnstyle.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\btnstyle.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_goods_next_off_shape.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\goods_next_off_shape.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_setting_volume_seekbar_list.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\setting_volume_seekbar_list.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_selector_btn_next.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\selector_btn_next.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bindcard_btn_selector.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\bindcard_btn_selector.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_down.png.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\btn_down.png"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_home_item_bbg.9.png.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\home_item_bbg.9.png"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_textview_no.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\textview_no.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_probg.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\probg.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_myloading.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\myloading.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_no.png.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\btn_no.png"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_top_battery_progress.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\top_battery_progress.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\xml_file_provider_paths.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\xml\\file_provider_paths.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_home_charging_progressbar.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\home_charging_progressbar.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_goods_next_on_shape.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\goods_next_on_shape.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_home_tag_sel_bg.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\home_tag_sel_bg.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_setting_song_switch_seletor.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\setting_song_switch_seletor.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_selector_point_text.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\selector_point_text.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_concomitant_disinfection.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\layout\\fragment_concomitant_disinfection.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_home_tag_bg.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\home_tag_bg.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pwd_user_grid_shape.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\pwd_user_grid_shape.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_task_del_up.png.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\task_del_up.png"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_task_del_sel.png.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\task_del_sel.png"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_setting_add_finger_off_shape.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\setting_add_finger_off_shape.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_setting_song_switch_off.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\setting_song_switch_off.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_setting_langue.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\layout\\fragment_setting_langue.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_adapter_location_grid_item.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\layout\\adapter_location_grid_item.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_destination_location_item1.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\layout\\destination_location_item1.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_btn_bg_normal.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\shape_btn_bg_normal.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_task_up_select.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\task_up_select.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_task_up_sel.png.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\task_up_sel.png"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_disinfection_setting.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\layout\\fragment_disinfection_setting.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_back.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\layout\\layout_back.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_selector_point_bg.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\selector_point_bg.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_setting_song_switch_circle.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\setting_song_switch_circle.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_week.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\layout\\item_week.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_btn_bg_selector.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\shape_btn_bg_selector.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_switch_thumb.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\switch_thumb.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_setting_add_finger_selector.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\setting_add_finger_selector.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_selector_check_box.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\selector_check_box.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_home_task_bg.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\home_task_bg.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_version_updating.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\layout\\dialog_version_updating.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_text_select.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\text_select.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bindcard_btn_off_view.xml.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable\\bindcard_btn_off_view.xml"
+    },
+    {
+        "merged": "D:\\cmapp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_switch_off_android.png.flat",
+        "source": "D:\\cmapp\\app\\src\\main\\res\\drawable-xhdpi\\switch_off_android.png"
+    }
+]

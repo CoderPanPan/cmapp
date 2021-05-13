@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.eps.views.RelativeTouchLis xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingLeft="62px"
+    android:paddingRight="62px">
+
+    <RelativeLayout
+        android:id="@+id/rl_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="70dp"
+        android:background="@android:color/white">
+
+        <TextView
+            android:id="@+id/tv_pwd_user"
+            style="@style/TextStyle"
+            android:drawableLeft="@mipmap/pwd_user"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:text="请选择用户" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/tv_pwd_user"
+            android:layout_marginTop="38dp"
+            android:background="@drawable/pwd_user_grid_shape"
+            android:paddingTop="22dp"
+            android:paddingBottom="16dp">
+
+            <eps.library.weight.MyGridView
+                android:id="@+id/mgv_pwd_list2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:horizontalSpacing="30dp"
+                android:numColumns="8"
+                android:scrollbars="none"
+                android:verticalSpacing="22dp"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_back_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@+id/rl_list"
+        android:text=">" />
+
+    <RelativeLayout
+        android:id="@+id/rl_input"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="118dp"
+        android:paddingTop="68dp"
+        android:translationX="470px">
+
+        <include layout="@layout/pwd_layout_pwd" />
+    </RelativeLayout>
+
+
+</com.eps.views.RelativeTouchLis>

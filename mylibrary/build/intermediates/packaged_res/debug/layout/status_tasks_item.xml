@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="26dp"
+    android:paddingRight="26dp"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/iv_status_tasks_item"
+        android:src="@mipmap/status_tasks_item_off_shape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_status_tasks_item"
+        style="@style/TextStyle"
+        android:layout_marginLeft="26dp"
+        tools:text="手术室2"
+        android:textColor="@color/color_217BFF"
+        android:textSize="20sp" />
+
+</LinearLayout>

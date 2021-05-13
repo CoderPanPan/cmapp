@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.tencent.bugly:nativecrashreport:3.9.1@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../SoftWare/.gradle/caches/transforms-2/files-2.1/89f83e00aaaa697d0134fa16318d324b/nativecrashreport-3.9.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../SoftWare/.gradle/caches/transforms-2/files-2.1/89f83e00aaaa697d0134fa16318d324b/nativecrashreport-3.9.1/res" />
+      <root url="file://$PROJECT_DIR$/../SoftWare/.gradle/caches/transforms-2/files-2.1/89f83e00aaaa697d0134fa16318d324b/nativecrashreport-3.9.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../SoftWare/.gradle/caches/modules-2/files-2.1/com.tencent.bugly/nativecrashreport/3.9.1/dfd1dd3429cbb158d4ec8ea33a4edf1f420660d6/nativecrashreport-3.9.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../SoftWare/.gradle/caches/modules-2/files-2.1/com.tencent.bugly/nativecrashreport/3.9.1/dfd1dd3429cbb158d4ec8ea33a4edf1f420660d6/nativecrashreport-3.9.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

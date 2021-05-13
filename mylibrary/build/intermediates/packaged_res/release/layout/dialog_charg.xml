@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/rl_home_tocharg_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="482dp"
+        android:layout_height="264dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/home_charg_dialog_shape">
+
+        <TextView
+            android:id="@+id/tv_home_charg_dialog_txt"
+            style="@style/TextStyle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="84dp"
+            android:drawableLeft="@mipmap/home_tocharg_time"
+            android:drawablePadding="20dp"
+            android:textColor="@color/color_217BFF"
+            android:textSize="22sp"
+            tools:text="59秒后自动前往充电!"/>
+
+        <CheckBox
+            android:id="@+id/cb_remember_check"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_below="@+id/tv_home_charg_dialog_txt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:button="@null"
+            android:drawableLeft="@drawable/selector_check_box"
+            android:drawablePadding="42dp"
+            android:gravity="center_vertical"
+            android:text="记住选择"
+            android:textColor="#237CFF"
+            android:textSize="22sp"
+            android:visibility="visible"/>
+
+        <!--上传下载进度条布局START-->
+        <TextView
+            android:id="@+id/tv_dialog_title"
+            style="@style/TextStyle"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="正在下载..."
+            android:textColor="@color/color_217BFF"
+            android:textSize="22sp"
+            android:visibility="gone"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="60dp"
+            android:progressTint="@color/color_217BFF"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tv_dialog_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/progressBar"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/color_217BFF"
+            android:textSize="60sp"
+            android:visibility="gone"/>
+        <!--上传下载进度条布局END-->
+
+        <RelativeLayout
+            android:id="@+id/rl_container"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_alignParentBottom="true">
+
+            <LinearLayout
+                android:id="@+id/ll_home_charg_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/btn_home_charg_left"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/home_charg_left_selector"
+                    android:text="立即前往"
+                    android:textColor="@drawable/selector_dialog_btn"
+                    android:textSize="22sp"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#BFBFBF"/>
+
+                <Button
+                    android:id="@+id/btn_home_charg_right"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/home_charg_right_selector"
+                    android:text="取消"
+                    android:textColor="@drawable/selector_dialog_btn"
+                    android:textSize="22sp"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_dialog_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/setting_down_song_selector"
+                android:gravity="center"
+                android:text="取消"
+                android:textColor="@drawable/selector_dialog_btn"
+                android:textSize="22sp"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/tv_dialog_background"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/setting_down_song_selector"
+                android:gravity="center"
+                android:text="后台上传"
+                android:textColor="@drawable/selector_dialog_btn"
+                android:textSize="22sp"
+                android:visibility="gone"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_above="@+id/rl_container"
+            android:background="#BFBFBF"/>
+    </RelativeLayout>
+</RelativeLayout>

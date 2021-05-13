@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="452px"
+    android:layout_height="230px"
+    android:background="@drawable/home_charg_dialog_shape"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:id="@+id/ll_title_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_marginEnd="10dp"
+            android:src="@mipmap/ic_tip_dialog" />
+
+        <TextView
+            android:id="@+id/tv_dialog_title"
+            style="@style/TextStyle"
+            android:text="提示"
+            android:textColor="@color/color_333333"
+            android:textSize="22sp" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_dialog_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="取消任务失败,  是否重试?"
+        android:textColor="@color/color_333333"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/rl_container"
+        android:background="#BFBFBF" />
+
+    <RelativeLayout
+        android:id="@+id/rl_container"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:id="@+id/ll_btn_group"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_dialog_cancel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/home_charg_left_selector"
+                android:text="取消"
+                android:textColor="@drawable/selector_dialog_btn"
+                android:textSize="19sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#BFBFBF" />
+
+            <Button
+                android:id="@+id/btn_dialog_retry"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/dialog_tip_selector"
+                android:text="重试(10)"
+                android:textColor="@drawable/selector_dialog_btn_white"
+                android:textSize="19sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

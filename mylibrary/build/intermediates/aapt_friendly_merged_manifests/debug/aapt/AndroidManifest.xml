@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myrobotlibrary"
+    android:versionCode="2"
+    android:versionName="0.1" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true" >
+        <activity android:name="com.eps.device.BleScanActivity" />
+        <activity
+            android:name="eps.library.common.BaseSettingActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.eps.device.DeviceActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.eps.device.UpLoadPositionActivity"
+            android:launchMode="singleTask" />
+
+        <service android:name="org.eclipse.paho.android.service.MqttService" /> <!-- MqttService -->
+        <service android:name="eps.library.mqtt.MyMqttService" /> <!-- MyMqttService -->
+
+    </application>
+
+</manifest>

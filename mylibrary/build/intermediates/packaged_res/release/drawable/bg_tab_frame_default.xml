@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<shape xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--<solid android:color="@android:color/transparent"/>&lt;!&ndash; 背景填充颜色 &ndash;&gt;-->
+<!--<stroke-->
+<!--android:width="1px"-->
+<!--android:color="#595959"/>&lt;!&ndash; 描边，边框宽度、颜色 &ndash;&gt;-->
+<!--<corners android:radius="0px"/>&lt;!&ndash; 边角圆弧的半径 &ndash;&gt;-->
+
+<!--</shape>-->
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape><!--边框的颜色-->
+            <solid android:color="#595959"/>
+        </shape>
+    </item>
+
+    <item
+        android:bottom="1px"
+        android:right="1px"
+        android:top="1px"><!--这里有四个方向可以选择，这里因为只要显示底部边框，所以就设置bottom-->
+        <shape>
+            <solid android:color="@color/white"/>   <!--整个空间的背景颜色-->
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sl_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/ll_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_numberContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="41px"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="437px"
+                android:layout_height="49px"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:background="@drawable/bg_edit_target_number">
+
+                <EditText
+                    android:id="@+id/et_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10px"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="请输入位置编码"
+                    android:textSize="18px" />
+
+
+                <RelativeLayout
+                    android:id="@+id/rl_delete"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="10px"
+                    android:paddingRight="10px"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="28px"
+                        android:layout_height="28px"
+                        android:layout_centerInParent="true"
+                        android:scaleType="center"
+                        android:src="@mipmap/delete_setting"/>
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <eps.library.weight.NumberKeyInputView
+                android:id="@+id/numberInput"
+                android:layout_marginTop="36px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

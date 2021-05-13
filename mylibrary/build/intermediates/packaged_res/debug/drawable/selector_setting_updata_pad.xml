@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@mipmap/setting_update_on_pad" android:state_selected="true"/>
+    <item android:drawable="@mipmap/setting_update_on_pad" android:state_enabled="true"/>
+    <item android:drawable="@mipmap/setting_update_off_pad"/>
+
+</selector>

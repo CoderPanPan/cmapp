@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.litepal.android:core:1.6.0@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../SoftWare/.gradle/caches/transforms-2/files-2.1/c26bc6a574901623938643ab48ad14e6/core-1.6.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../SoftWare/.gradle/caches/transforms-2/files-2.1/c26bc6a574901623938643ab48ad14e6/core-1.6.0/res" />
+      <root url="file://$PROJECT_DIR$/../SoftWare/.gradle/caches/transforms-2/files-2.1/c26bc6a574901623938643ab48ad14e6/core-1.6.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../SoftWare/.gradle/caches/modules-2/files-2.1/org.litepal.android/core/1.6.0/9ada619671be11ab2b0091d8158d4e64f1b35374/core-1.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

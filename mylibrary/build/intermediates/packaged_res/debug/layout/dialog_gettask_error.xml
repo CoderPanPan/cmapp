@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/rl_home_gettask_error_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/color_4D000000"
+                android:clickable="false">
+
+    <RelativeLayout
+        android:layout_width="482dp"
+        android:layout_height="264dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/home_charg_dialog_shape">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="84dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tv_task_fail"
+                style="@style/TextStyle"
+                android:layout_centerHorizontal="true"
+                android:paddingLeft="20dp"
+                android:text="获取底盘任务量出错,请重新登录！"
+                android:textColor="@color/color_217BFF"
+                android:textSize="22sp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_home_gettask_error"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/setting_down_song_selector"
+            android:text="确定"
+            android:textColor="@color/color_666666"
+            android:textSize="22sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_above="@id/btn_home_gettask_error"
+            android:background="@color/color_BFBFBF"/>
+    </RelativeLayout>
+
+</RelativeLayout>

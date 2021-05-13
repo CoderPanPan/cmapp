@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/home_bg">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.28" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.72" />
+
+    <ImageView
+        android:id="@+id/iv_start_logo"
+        android:layout_width="203dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="@dimen/dp_70"
+        android:src="@mipmap/ic_start_logo1"
+        app:layout_constraintEnd_toEndOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_start_robot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_50"
+        android:src="@mipmap/ic_robot_y2"
+        app:layout_constraintStart_toStartOf="@+id/guideline1"
+        app:layout_constraintTop_toBottomOf="@+id/iv_start_logo" />
+
+    <eps.library.weight.TextFollowingProgressBar
+        android:id="@+id/textFollowingProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/dp_18"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="@dimen/dp_7"
+        android:max="100"
+        android:progress="10"
+        android:progressDrawable="@drawable/pb_text_follow_bg"
+        app:layout_constraintEnd_toEndOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline1"
+        app:layout_constraintTop_toBottomOf="@+id/iv_start_robot" />
+
+    <LinearLayout
+        android:id="@+id/ll_start_desc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_20"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline1"
+        app:layout_constraintTop_toBottomOf="@+id/textFollowingProgressBar">
+
+        <TextView
+            android:id="@+id/tv_start_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="网络初始化中"
+            android:textColor="@color/color_999999"
+            android:textSize="@dimen/sp_12" />
+
+        <TextView
+            android:id="@+id/tv_start_desc_dot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="....."
+            android:textColor="@color/color_999999"
+            android:textSize="@dimen/sp_12" />
+
+        <TextView
+            android:id="@+id/tv_start_desc_pc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10%"
+            android:textColor="@color/color_999999"
+            android:textSize="@dimen/sp_12" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_start_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_28"
+        android:text="错误代码  1009"
+        android:textColor="@color/color_E21E1E"
+        android:textSize="@dimen/sp_9"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline1"
+        app:layout_constraintTop_toBottomOf="@+id/ll_start_desc" />
+
+    <Button
+        android:id="@+id/btn_start_retry"
+        android:layout_width="@dimen/dp_90"
+        android:layout_height="@dimen/dp_31"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@drawable/shape_btn_start"
+        android:padding="@dimen/dp_5"
+        android:text="重试"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_13"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline1"
+        app:layout_constraintTop_toBottomOf="@+id/tv_start_error"
+        tools:text="重试 (13s)" />
+
+
+</android.support.constraint.ConstraintLayout>

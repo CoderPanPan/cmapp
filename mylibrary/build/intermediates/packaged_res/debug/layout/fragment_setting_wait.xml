@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_setting_wait_tips"
+        android:layout_width="248dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="120dp"
+        android:background="@drawable/setting_permission_tips_shape"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/setting_wait_on" />
+
+        <TextView
+            style="@style/TextStyle"
+            android:layout_marginLeft="18dp"
+            android:text="请设置等待时间"
+            android:textColor="@color/color_267FFF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_setting_wait_tobe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_setting_wait_tips"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="38dp"
+        android:layout_toRightOf="@id/ll_setting_wait_tips"
+        android:gravity="center_vertical">
+
+        <TextView
+            style="@style/TextStyle"
+            android:layout_width="192dp"
+            android:text="到达待接收"
+            android:textColor="@color/color_237CFF"
+            android:textSize="22sp" />
+
+        <Switch
+            android:id="@+id/sw_setting_wait_tobe"
+            style="@style/setting_switch"
+            android:layout_gravity="center_vertical" />
+
+        <LinearLayout
+            android:id="@+id/ll_setting_wait_tobe_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="64dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/setting_wait_time_bg"
+                android:gravity="center_vertical">
+
+                <EditText
+                    android:id="@+id/et_setting_wait_tobe_minute"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="2"
+                    android:text="0"
+                    android:textColor="@color/color_333333"
+                    android:textSize="22sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/color_959595" />
+
+                <LinearLayout
+                    android:layout_width="18dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/ll_setting_wait_tobe_minute_up"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@mipmap/setting_point_up" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/color_959595" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_setting_wait_tobe_minute_down"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@mipmap/setting_point_down" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="分"
+                android:textColor="@color/color_222222"
+                android:textSize="22sp" />
+
+            <LinearLayout
+                android:layout_width="64dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="28dp"
+                android:background="@drawable/setting_wait_time_bg"
+                android:gravity="center_vertical">
+
+                <EditText
+                    android:id="@+id/et_setting_wait_tobe_second"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="2"
+                    android:text="0"
+                    android:textColor="@color/color_333333"
+                    android:textSize="22sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/color_959595" />
+
+                <LinearLayout
+                    android:layout_width="18dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/ll_setting_wait_tobe_second_up"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@mipmap/setting_point_up" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/color_959595" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_setting_wait_tobe_second_down"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@mipmap/setting_point_down" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="秒"
+                android:textColor="@color/color_222222"
+                android:textSize="22sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_setting_wait_accept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_setting_wait_tobe"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="38dp"
+        android:layout_toRightOf="@id/ll_setting_wait_tips"
+        android:gravity="center_vertical">
+
+        <TextView
+            style="@style/TextStyle"
+            android:layout_width="192dp"
+            android:text="接收物品"
+            android:textColor="@color/color_237CFF"
+            android:textSize="22sp" />
+
+        <Switch
+            android:id="@+id/sw_setting_wait_accept"
+            style="@style/setting_switch"
+            android:layout_gravity="center_vertical" />
+
+        <LinearLayout
+            android:id="@+id/ll_setting_wait_accept_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="64dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/setting_wait_time_bg"
+                android:gravity="center_vertical">
+
+                <EditText
+                    android:id="@+id/et_setting_wait_accept_minute"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="2"
+                    android:text="0"
+                    android:textColor="@color/color_333333"
+                    android:textSize="22sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/color_959595" />
+
+                <LinearLayout
+                    android:layout_width="18dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/ll_setting_wait_accept_minute_up"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@mipmap/setting_point_up" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/color_959595" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_setting_wait_accept_minute_down"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@mipmap/setting_point_down" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="分"
+                android:textColor="@color/color_222222"
+                android:textSize="22sp" />
+
+            <LinearLayout
+                android:layout_width="64dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="28dp"
+                android:background="@drawable/setting_wait_time_bg"
+                android:gravity="center_vertical">
+
+                <EditText
+                    android:id="@+id/et_setting_wait_accept_second"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="2"
+                    android:text="0"
+                    android:textColor="@color/color_333333"
+                    android:textSize="22sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/color_959595" />
+
+                <LinearLayout
+                    android:layout_width="18dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/ll_setting_wait_accept_second_up"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@mipmap/setting_point_up" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/color_959595" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_setting_wait_accept_second_down"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@mipmap/setting_point_down" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="秒"
+                android:textColor="@color/color_222222"
+                android:textSize="22sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_setting_app_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_setting_wait_accept"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="38dp"
+        android:layout_toRightOf="@id/ll_setting_wait_tips"
+        android:gravity="center_vertical">
+
+        <TextView
+            style="@style/TextStyle"
+            android:layout_width="192dp"
+            android:text="软件自启动时间"
+            android:textColor="@color/color_237CFF"
+            android:textSize="22sp" />
+
+        <Switch
+            android:id="@+id/sw_setting_app_start"
+            style="@style/setting_switch"
+            android:layout_gravity="center_vertical" />
+
+        <LinearLayout
+            android:id="@+id/ll_setting_app_start_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="64dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/setting_wait_time_bg"
+                android:gravity="center_vertical">
+
+                <EditText
+                    android:id="@+id/et_setting_app_start_minute"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="2"
+                    android:text="0"
+                    android:textColor="@color/color_333333"
+                    android:textSize="22sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/color_959595" />
+
+                <LinearLayout
+                    android:layout_width="18dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/ll_setting_app_start_minute_up"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@mipmap/setting_point_up" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/color_959595" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_setting_app_start_minute_down"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@mipmap/setting_point_down" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="分"
+                android:textColor="@color/color_222222"
+                android:textSize="22sp" />
+
+            <LinearLayout
+                android:layout_width="64dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="28dp"
+                android:background="@drawable/setting_wait_time_bg"
+                android:gravity="center_vertical">
+
+                <EditText
+                    android:id="@+id/et_setting_app_start_second"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="2"
+                    android:text="0"
+                    android:textColor="@color/color_333333"
+                    android:textSize="22sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/color_959595" />
+
+                <LinearLayout
+                    android:layout_width="18dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/ll_setting_app_start_second_up"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@mipmap/setting_point_up" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/color_959595" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_setting_app_start_second_down"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@mipmap/setting_point_down" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="秒"
+                android:textColor="@color/color_222222"
+                android:textSize="22sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_setting_into"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_setting_app_start"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="38dp"
+        android:layout_toRightOf="@id/ll_setting_wait_tips"
+        android:gravity="center_vertical"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <TextView
+            style="@style/TextStyle"
+            android:layout_width="192dp"
+            android:text="进电梯超时"
+            android:textColor="@color/color_237CFF"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/et_setting_into_second"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/setting_wait_time_bg"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxEms="4"
+            android:maxLength="4"
+            android:text="30"
+            android:textColor="@color/color_333333"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="秒"
+            android:textColor="@color/color_222222"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_setting_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_setting_into"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="38dp"
+        android:layout_toRightOf="@id/ll_setting_wait_tips"
+        android:gravity="center_vertical"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <TextView
+            style="@style/TextStyle"
+            android:layout_width="192dp"
+            android:text="出电梯超时"
+            android:textColor="@color/color_237CFF"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/et_setting_out_second"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/setting_wait_time_bg"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxEms="4"
+            android:maxLength="4"
+            android:text="30"
+            android:textColor="@color/color_333333"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="秒"
+            android:textColor="@color/color_222222"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_outTime2pre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_setting_out"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="38dp"
+        android:layout_toRightOf="@id/ll_setting_wait_tips"
+        android:gravity="center_vertical"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <TextView
+            style="@style/TextStyle"
+            android:layout_width="192dp"
+            android:text="超时返回上一级"
+            android:textColor="@color/color_237CFF"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/et_outTime2pre"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/setting_wait_time_bg"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxEms="4"
+            android:maxLength="4"
+            android:text="300"
+            android:textColor="@color/color_333333"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="秒"
+            android:textColor="@color/color_222222"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_setting_wait_confirm"
+        android:layout_width="170dp"
+        android:layout_height="56dp"
+        android:layout_below="@id/ll_outTime2pre"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:background="@drawable/status_tasks_cancel_shape"
+        android:text="确认"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+</RelativeLayout>

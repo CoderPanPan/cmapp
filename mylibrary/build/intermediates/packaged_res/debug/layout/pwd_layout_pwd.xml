@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/ll_pwd_input2"
+        android:layout_width="402dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="55dp">
+
+        <TextView
+            android:id="@+id/tv_pwd_error2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/user_or_pwd_error"
+            android:textColor="@color/color_C30000"
+            android:textSize="24sp"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginBottom="18dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="72dp"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_pwd_number21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:inputType="textPassword"
+                    android:textColor="@color/color_217BFF"
+                    android:textSize="60sp"
+                    tools:text="1" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/color_353535" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="72dp"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_pwd_number22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:inputType="textPassword"
+                    android:textColor="@color/color_217BFF"
+                    android:textSize="60sp"
+                    tools:text="2" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/color_353535" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="72dp"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_pwd_number23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:inputType="textPassword"
+                    android:textColor="@color/color_217BFF"
+                    android:textSize="60sp"
+                    tools:text="3" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/color_353535" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <LinearLayout
+                android:layout_width="72dp"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_pwd_number24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:inputType="textPassword"
+                    android:textColor="@color/color_217BFF"
+                    android:textSize="60sp"
+                    tools:text="4" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/color_353535" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_pwd_btn21"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/button_select"
+                android:tag="1"
+                android:text="1"
+                android:textColor="@drawable/button_test"
+                android:textSize="48sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/btn_pwd_btn22"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/button_select"
+                android:tag="2"
+                android:text="2"
+                android:textColor="@drawable/button_test"
+                android:textSize="48sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/btn_pwd_btn23"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/button_select"
+                android:tag="3"
+                android:text="3"
+                android:textColor="@drawable/button_test"
+                android:textSize="48sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_pwd_btn24"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/button_select"
+                android:tag="4"
+                android:text="4"
+                android:textColor="@drawable/button_test"
+                android:textSize="48sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/btn_pwd_btn25"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/button_select"
+                android:tag="5"
+                android:text="5"
+                android:textColor="@drawable/button_test"
+                android:textSize="48sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/btn_pwd_btn26"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/button_select"
+                android:tag="6"
+                android:text="6"
+                android:textColor="@drawable/button_test"
+                android:textSize="48sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_pwd_btn27"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/button_select"
+                android:tag="7"
+                android:text="7"
+                android:textColor="@drawable/button_test"
+                android:textSize="48sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/btn_pwd_btn28"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/button_select"
+                android:tag="8"
+                android:text="8"
+                android:textColor="@drawable/button_test"
+                android:textSize="48sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/btn_pwd_btn29"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/button_select"
+                android:tag="9"
+                android:text="9"
+                android:textColor="@drawable/button_test"
+                android:textSize="48sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/button_select"
+                android:text="1"
+                android:textColor="@drawable/button_test"
+                android:textSize="48sp"
+                android:visibility="invisible" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/btn_pwd_btn20"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/button_select"
+                android:tag="0"
+                android:text="0"
+                android:textColor="@drawable/button_test"
+                android:textSize="48sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/button_select"
+                android:text="1"
+                android:textColor="@drawable/button_test"
+                android:textSize="48sp"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_pwd_delete2"
+        android:layout_width="wrap_content"
+        android:layout_height="76dp"
+        android:layout_marginTop="32dp"
+        android:layout_toRightOf="@id/ll_pwd_input2"
+        android:clickable="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:src="@mipmap/pwd_clear2" />
+    </RelativeLayout>
+</merge>

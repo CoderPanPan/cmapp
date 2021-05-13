@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cmapp.iml" filepath="$PROJECT_DIR$/.idea/modules/cmapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/cmapp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/cmapp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mylibrary/cmapp.mylibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/mylibrary/cmapp.mylibrary.iml" />
+    </modules>
+  </component>
+</project>

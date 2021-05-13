@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="robotDB" />
+    <version value="18" />
+
+    <list>
+        <mapping class="eps.library.entity.User" />
+        <mapping class="eps.library.entity.PositionsMap" />
+        <mapping class="eps.library.entity.RobotStatus" />
+        <mapping class="eps.library.entity.LastRobotStatus" />
+        <mapping class="eps.library.entity.Doors" />
+        <mapping class="eps.library.entity.Lifts" />
+        <mapping class="eps.library.entity.LiftFloors" />
+        <mapping class="eps.library.entity.ArticleData" />
+        <mapping class="eps.library.entity.PositionTip" />
+        <mapping class="eps.library.entity.RobotRunBgm" />
+        <mapping class="eps.library.requestbean.SysVoiceRemind" />
+        <mapping class="eps.library.entity.DisinfectionBean" />
+        <mapping class="eps.library.entity.PullTask" />
+        <mapping class="eps.library.entity.WeekBean" />
+        <mapping class="eps.library.entity.Sysdoorclosedpath" />
+        <mapping class="eps.library.entity.UninterruptedFloor" />
+        <mapping class="eps.library.requestbean.Sessions" />
+        <mapping class="eps.library.entity.BuildingEntity" />
+        <mapping class="eps.library.requestbean.RfidRecordHistoryBean" />
+        <mapping class="eps.library.entity.UserDetailJson" />
+    </list>
+
+
+</litepal>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="482dp"
+    android:layout_height="264dp"
+    android:background="@drawable/home_charg_dialog_shape"
+    android:gravity="center">
+
+
+    <!--上传下载进度条布局START-->
+    <TextView
+        android:id="@+id/tv_dialog_title"
+        style="@style/TextStyle"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="正在下载..."
+        android:textColor="@color/color_217BFF"
+        android:textSize="22sp"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="20dp"
+        android:progressTint="@color/color_217BFF"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_dialog_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progressBar"
+        android:layout_centerHorizontal="true"
+        android:text="0%"
+        android:textColor="@color/color_217BFF"
+        android:textSize="60sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_dialog_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="是否需要上传日志信息"
+        android:textColor="@color/color_217BFF"
+        android:textSize="24dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/rl_container"
+        android:background="#BFBFBF" />
+
+    <RelativeLayout
+        android:id="@+id/rl_container"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:id="@+id/ll_btn_group"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_dialog_upload"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/home_charg_left_selector"
+                android:text="上传"
+                android:textColor="@drawable/selector_dialog_btn"
+                android:textSize="22sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#BFBFBF" />
+
+            <Button
+                android:id="@+id/btn_dialog_cancel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/home_charg_right_selector"
+                android:text="取消"
+                android:textColor="@drawable/selector_dialog_btn"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_dialog_background"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/setting_down_song_selector"
+            android:gravity="center"
+            android:text="后台继续上传"
+            android:textColor="@drawable/selector_dialog_btn"
+            android:textSize="22sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
